@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashenafi Portifolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c3266e7480.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="continer">
+            <nav>
+                <button>ASHU.</button>
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#service">Service</a></li>
+                    <li><a href="#portfolio">Portifolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i onclick="closemenu();" class="fa-solid fa-xmark"></i>
+                </ul>
+                <i onclick="openmenu();" class="fa-solid fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <p>Frontend Developer</p>
+                <h1>Hi, i'm <span>Ashenafi</span> <br>kindie From Ethiopia </h1>
+            </div>
+        </div>
+    </div>
+
+<div id="about">
+    <div class="continer">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="ashu lin.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-titele">About Me</h1>
+                <p class="about-text">
+                    Hello! I am a passionate Frontend Web Developer with a
+                    focus on creating user-friendly and visually appealing
+                    websites. I specialize in HTML, CSS, JavaScript,
+                    ensuring that every project is responsive, fast, and intuitive.
+<br><br>
+                    In addition to web development, I'm excited to expand my skill
+                    set in other creative fields. Coming soon, I will be delving into 
+                    Graphic Design, Video Editing, and Digital Marketing. I'm eager
+                    to bring together these diverse skills to create holistic, engaging digital experiences.
+<br><br>
+                    Stay tuned for more updates on my work as I grow and evolve in the digital world!
+                </p>
+
+                <div class="tab-titeles">
+                    <p class="tab-links active-link" onclick="opentab('skills');">Skiles</p>
+                    <p class="tab-links" onclick="opentab('education');">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web development</span><br>Frontend web app development</li>
+                        
+                    </ul>
+                   
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2024 - Current</span><br>Udacity 5 Million Ethiopia Coders</li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------service-------------------->
+ <div id="service">
+    <div class="continer">
+        <h1 class="sub-titele">My Services</h1>
+        <div class="services-list">
+            <div class="shadow">
+                <i class="fa-solid fa-code"></i>
+                <h2>Web development</h2>
+                <p>Creating responsive, user-friendly websites with modern designs and seamless functionality to enhance user experience and business growth.</p>
+                <a class="aaa" href="#">Learn more</a>
+            </div>
+            <div class="shadow">
+                <span>COMING SOON</span>
+                <h2>Graphic Design</h2>
+                <p>Exciting, creative graphic design services to visually communicate your brand and capture attention through stunning artwork and visuals.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div class="shadow">
+                <span>COMING SOON</span>
+                <h2>Digital Marketing</h2>
+                <p>Comprehensive digital marketing strategies to boost your online presence, drive traffic, and maximize conversions for business growth.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div class="shadow">
+                <span>COMING SOON</span>
+                <h2>Video Editing</h2>
+                <p>High-quality video editing services that bring your content to life with creative storytelling and polished visuals.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+ </div>
+ <!-----------------work---------------->
+ <div id="portfolio">
+    <div class="continer">
+        <h1 class="sub-titel">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="projects.avif" alt="">
+                <div class="layer">
+                    <h3>coming soon</h3>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="projects.avif" alt="">
+                <div class="layer">
+                    <h3>coming soon</h3>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="projects.avif" alt="">
+                <div class="layer">
+                    <h3>coming soon</h3>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+ </div>
+
+ <!------------------contact--------------->
+ <div id="contact">
+    <div class="continer">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-titel">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> ashusb29@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 0983100622</p>
+                <div class="social-icon">
+                    <a href="https://t.me/ashsb29" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+                    <a class="absolut" href="https://www.tiktok.com/@ash_sb93" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+                <a href="learn.udacity.com_view-certificate_nd000-gc-251 (1).pdf" download class="btn btn2"><i class="fa-solid fa-download"></i>My Certificate</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © 2024 Ashenafi. All rights reserved.
+        </p>
+    </div>
+ </div>
+<a href="#" class="up"><i class="fa-solid fa-arrow-up"></i></a>
+<script>
+    /*
+  function opentabtow() {
+    const education = document.getElementById('education');
+    const skiles = document.getElementById('skiles');
+
+    if(education.style.display === "none" || education.style.display === "") {
+        education.style.display = "block";
+        skiles.style.display = "none";
+    }
+  }  
+*/
+
+    let tablinks = document.getElementsByClassName('tab-links');
+    let tabcontents = document.getElementsByClassName('tab-contents');
+
+    function opentab(tabname) {
+        
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    
+</script>
+<script>
+    const sidemenu = document.getElementById('sidemenu');
+
+    function openmenu() {
+        
+        sidemenu.style.right = "0";
+    }
+    function closemenu() {
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxCrhcNqrrgQT2d0XDc9CWL_k7FulE4-BdBf6w0fx4wsmibp4DMhYXpGiBPtuIpvthV/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById('msg')
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+
+            setTimeout(function() {
+                msg.innerHTML = ""
+            }, 5000)
+        })
+        form.reset()
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
